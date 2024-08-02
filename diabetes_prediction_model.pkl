@@ -1,0 +1,6 @@
+import pickle
+
+# Train the model
+# ...
+
+pickle.dump(model, open('diabetes_prediction_model.pkl', 'wb'))
