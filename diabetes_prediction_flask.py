@@ -5,7 +5,7 @@ import pickle
 app = Flask(__name__)
 
 # Load the trained model
-model = pickle.load(open('Diabetesmodel.pkl', 'rb'))
+model = pickle.load(open('models/diabetes_prediction_model_knn.pkl', 'rb'))
 
 @app.route('/')
 def home():
