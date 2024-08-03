@@ -1,4 +1,4 @@
-name: Diabetes Prediction App CI/CD
+name: Diabetes Prediction App CI/CD - MLOps
 
 on:
   push:
